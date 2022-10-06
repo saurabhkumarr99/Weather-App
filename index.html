@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live weather</title>
+
+    <script src="jquery-min.js"></script>
+    <script src="underscore-min.js"></script>
+    <script src="backbone-min.js"></script>
+
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Live weather app</h1>
+    </header>
+    <section>
+
+        <div class="container" id="container1">
+            City : <input type="text" id="city"> <button id="show_weather">Show Weather</button>
+            <div id="container1_1" style="display: none"></div>
+        </div>
+
+        <div class="container" id="container2" style="display: none;">
+            <div id="time"></div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sr.</th>
+                        <th>Country</th>
+                        <th>State</th>
+                        <th>City</th>
+                        <th>temp_c</th>
+                        <th>Wind</th>
+                        <th>Wether</th>
+                        <th>humidity</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody"></tbody>
+            </table>
+        </div>
+
+    </section>
+</body>
+
+</html>

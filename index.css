@@ -1,0 +1,42 @@
+body {
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container {
+    border: solid red 4px;
+    background-color: aquamarine;
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#container1_1 {
+    border: solid black 2px;
+    background-color: aquamarine;
+    width: 40%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+table,
+th,
+td {
+    border: solid black 3px;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+button{
+    font-size: 25px;
+    border-radius: 10px;
+    background-color:rgb(38, 93, 189) ;
+}
+
+button:hover{
+    background-color: rgb(188, 60, 243);
+}
