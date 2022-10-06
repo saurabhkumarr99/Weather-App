@@ -31,12 +31,16 @@ td {
     padding: 5px;
 }
 
-button{
+button {
     font-size: 25px;
     border-radius: 10px;
-    background-color:rgb(38, 93, 189) ;
+    background-color: rgb(38, 93, 189);
 }
 
-button:hover{
+button:hover {
     background-color: rgb(188, 60, 243);
+}
+
+footer {
+    text-align: center;
 }
