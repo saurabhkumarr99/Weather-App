@@ -9,6 +9,10 @@ var city_model = Backbone.Model.extend();
 
 function show_weather() {
     var city = document.getElementById("city").value;
+    fetch_weather(city);
+}
+
+function fetch_weather(city){
     var url = "https://api.weatherapi.com/v1/current.json?key=9670802591684e9f88e63255220510&q=" + city + "&aqi=no";
     fetch(url).then((response) => response.json())
         .then((data) => {
