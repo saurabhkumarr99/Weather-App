@@ -13,7 +13,8 @@ function show_weather() {
 }
 
 function fetch_weather(city){
-    var url = "https://api.weatherapi.com/v1/current.json?key=9670802591684e9f88e63255220510&q=" + city + "&aqi=no";
+    var key="9670802591684e9f88e63255220510&q=";
+    var url = "https://api.weatherapi.com/v1/current.json?key="+key + city + "&aqi=no";
     fetch(url).then((response) => response.json())
         .then((data) => {
             sessionStorage.setItem("myData", JSON.stringify(data));
