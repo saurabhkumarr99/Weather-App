@@ -81,6 +81,7 @@ function Create_view() {
 }
 
 function display(cities_collection) {
+    
     document.getElementById("tbody").innerHTML = "";
 
     cities_collection.forEach(function (ct, index) {
